@@ -1,0 +1,55 @@
+---
+title: "READ"
+author: "Matthew Voss"
+date: "9/7/2022"
+output: pdf_document
+---
+
+```{r}
+library(readxl)
+library(tidyverse)
+
+```
+
+```{r}
+WinterDev<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 2)
+JulianEmergence<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 3)
+GalleryLength<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 4)
+AdultSexRatio<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 5)
+Repo<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 6)
+WinterSummer<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 7)
+LarvalSize<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 8)
+Emergence<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 9)
+Temp<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 10)
+```
+Concat the data frame
+```{r}
+
+```---
+title: "READ"
+author: "Matthew Voss"
+date: "9/7/2022"
+output: pdf_document
+---
+
+```{r}
+library(readxl)
+library(tidyverse)
+
+```
+
+```{r}
+WinterDev<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 2)
+JulianEmergence<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 3)
+GalleryLength<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 4)
+AdultSexRatio<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 5)
+Repo<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 6)
+WinterSummer<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 7)
+LarvalSize<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 8)
+Emergence<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 9)
+Temp<-read_excel(path = "MPB Reproduction Data.xlsx", sheet = 10)
+```
+Concat the data frame
+```{r}
+
+```
